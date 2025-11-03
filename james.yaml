@@ -1,0 +1,177 @@
+name: James Robert Pentagast
+
+description: |
+  Youngest son of Albert Pentgast II, a blue blooded member of the
+  Alabama aristocracy.
+
+  After a youth of wine, women and horse racing he loses his early
+  inheritance when the Confederacy army seizes his shipment of fine
+  drinks off a train from New York.  His brother then marries his
+  childhood sweetheart and takes his finest horse as a ``wedding
+  present''.
+
+  After stealing back his horse he burns his brother's newly built
+  family home to the ground and flees to Mexico.
+
+  Now out for revenge against the Confederacy and the whole Southern
+  Establishment.
+
+image: james.png
+
+swade:
+  advancement:
+    - name: Initial
+      hinderances:
+        - name: Driven
+          type: Major
+          description: Bring down the Southern Establishment
+        - name: Enemy
+          type: Minor
+          description: Albert Richard Pentagast III
+        - name: Wanted
+          type: Minor
+          description: Arson attack on family home
+      attributes:
+        agility: 8
+        smarts: 8
+        spirit: 6
+        strength: 4
+        vigor: 4
+      skills:
+        Athletics:
+          attribute: agility
+          die: 6
+          core: true
+        Common Knowledge:
+          attribute: smarts
+          die: 4
+          core: true
+        Notice:
+          attribute: smarts
+          die: 6
+          core: true
+        Persuasion:
+          attribute: spirit
+          die: 6
+          core: true
+        Stealth:
+          attribute: agility
+          die: 4
+          core: true
+        Riding:
+          attribute: agility
+          die: 8
+        Shooting:
+          attribute: agility
+          die: 8
+        Gambling:
+          attribute: smarts
+          die: 8
+        Language (English):
+          attribute: smarts
+          die: 8
+          initial: 8
+        Language (French):
+          attribute: smarts
+          die: 6
+          initial: 6
+        Language (Italian):
+          attribute: smarts
+          die: 6
+          initial: 6
+        Language (Russian):
+          attribute: smarts
+          die: 6
+          initial: 6
+        Language (Greek):
+          attribute: smarts
+          die: 6
+          initial: 6     
+      edges:
+        - Linguist
+        - Steady Hands
+        - Two-Gun Kid
+    - name: Novice 1
+      attributes:
+        vigor: 6
+    - name: Novice 2
+      skills:
+        Boating:
+          attribute: agility
+          die: 4
+          initial: 4
+        Repair:
+          attribute: smarts
+          die: 4
+          initial: 4
+    - name: Novice 3
+      skills:
+        Boating:
+          attribute: agility
+          die: 6
+        Repair:
+          attribute: smarts
+          die: 6
+    - name: Seasoned 1
+      skills:
+        Shooting:
+          attribute: agility
+          die: 10
+  gear:
+    - name: Bucephalus (finest horse in all Mexico)
+      cost: 150
+    - name: Pair of pistols (Colt M1851 Navy revolver)
+      cost: 10
+      weight: 2
+      number: 2
+      location: Body
+    - name: 50 × Pistol Amunition (Small)
+      cost: 2
+      weight: 5
+      location: Body
+    - name: Boots
+      cost: 8
+      weight: 4
+      location: Body
+    - name: Suit
+      cost: 15
+      weight: 6
+      location: Body
+    - name: Shirt (dress)
+      cost: 3
+      weight: 1
+      number: 2
+      location: Horse
+    - name: Shirt (dress)
+      cost: 3
+      weight: 1
+      location: Body
+    - name: Bedroll
+      cost: 4
+      weight: 10
+      location: Shack
+    - name: Saddle
+      cost: 25
+      weight: 30
+      location: Horse
+    - name: Saddlebags
+      cost: 5
+      weight: 5
+      location: Horse
+    - name: Canteen
+      cost: 1
+      weight: 5
+      number: 4
+      location: Horse
+    - name: Iron skillet
+      cost: 0.5
+      weight: 5
+      location: Shack
+    - name: Lantern
+      cost: 2.5
+      weight: 4
+      location: Shack
+    - name: Lantern oil
+      cost: 0.1
+      weight: 6
+      location: Shack
