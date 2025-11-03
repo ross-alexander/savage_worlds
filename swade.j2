@@ -1,0 +1,163 @@
+\documentclass[a4paper]{article}
+
+\usepackage{swade}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{pagebox}{\VAR{character.name} \BLOCK{if character.advancement}(\VAR{character.advancement|title})\BLOCK{endif}}
+
+\begin{multicols}{2}
+
+% ----------------------------------------------------------------------
+
+\begin{dbox}
+\BLOCK{if character.description}
+
+\parskip=0.5\baselineskip \advance\parskip by 0pt plus 2pt
+\parindent=0pt
+
+\VAR{character.description}
+
+\bigskip
+
+\BLOCK{if character.image}
+\includegraphics[width=\linewidth]{\VAR{character.image}}
+\BLOCK{endif}
+\end{dbox}
+\BLOCK{endif}
+
+\bigskip
+
+% ----------------------------------------------------------------------
+
+\BLOCK{if character.hinderances}
+\begin{mybox}{Hinderances}
+\begin{swtblr}{}
+\BLOCK{for h in character.hinderances}
+\VAR{h.name|title} (\VAR{h.type|title}) \BLOCK{if h.description} \emph{\VAR{h.description}} \BLOCK{endif} \\
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+\BLOCK{endif}
+
+% ----------------------------------------------------------------------
+
+\BLOCK{if character.attributes}
+\begin{mybox}{Attributes}
+\begin{swtblr}{colspec={Xr},hlines={0.1pt,Gray}
+}
+\BLOCK{for k,v in character.attributes|items}
+\VAR{k|title} & d\VAR{v.die} (\VAR{v.cost}) \\
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+\BLOCK{endif}
+
+% ----------------------------------------------------------------------
+
+\BLOCK{if character.derived}
+
+\begin{mybox}{Derived}
+\begin{swtblr}{hlines={0.1pt,Gray}}
+\BLOCK{for k,v in character.derived|items}
+\VAR{k|title} & \VAR{v} \\
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+\BLOCK{endif}
+
+% ----------------------------------------------------------------------
+
+\BLOCK{if character.skills}
+\begin{mybox}{Skills}
+\begin{swtblr}{colspec={Xr},hlines={0.1pt,Gray}}
+\BLOCK{for k,v in character.skills|items}
+\VAR{k|title}$^{\VAR{v['attribute'][0:2]}}$ & \VAR{v.die} (\VAR{v.cost}) \\
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+\BLOCK{endif}
+
+% ----------------------------------------------------------------------
+
+\BLOCK{if character.edges}
+\begin{mybox}{Edges}
+\begin{swtblr}{}
+\BLOCK{for k in character.edges}
+\VAR{k|title} \\
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+\BLOCK{endif}
+
+% ----------------------------------------------------------------------
+
+\begin{mybox}{Advancements}
+\BLOCK{if character.changes}
+\begin{swtblr}{colspec={X},
+row{\VAR{character.changes|map(attribute='row')|join(",")}}={l,font=\bfseries},
+width=\linewidth}
+\BLOCK{for c in character.changes}
+\VAR{c.name} \\
+\BLOCK{for a in c.changes}
+\VAR{a} \\
+\BLOCK{endfor}
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+
+\BLOCK{endif}
+
+\end{multicols}
+\end{pagebox}
+
+% ----------------------------------------------------------------------
+%
+% Items
+%
+% ----------------------------------------------------------------------
+
+\begin{pagebox}{\VAR{character.name} \BLOCK{if character.advancement}(\VAR{character.advancement|title})\BLOCK{endif}}
+
+\begin{multicols}{2}
+
+\BLOCK{if character['gear']}
+%%set gear = character.gear  
+\begin{mybox}{\VAR{gear.title}}
+\begin{swtblr}{colspec={Xrr},
+hlines={0.1pt,Gray},
+cell{\VAR{gear.locations|map(attribute='index')|join(",")}}{1}={c=3}{c,font=\bfseries}
+}
+\BLOCK{for loc in gear.locations}
+\VAR{loc.location} (\VAR{loc.weight} lb)\\
+\BLOCK{for g in loc.gear}
+\VAR{g.name|title} \BLOCK{if g.number > 1}(\VAR{g.number})\BLOCK{endif} & \$\VAR{g.cost} & \VAR{g.weight} \\
+\BLOCK{endfor}
+\BLOCK{endfor}
+\end{swtblr}
+\end{mybox}
+
+\bigskip
+
+\BLOCK{endif}
+
+% ----------------------------------------------------------------------
+
+\end{multicols}
+\end{pagebox}
+
+\end{document}

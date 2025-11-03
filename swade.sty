@@ -1,0 +1,27 @@
+\RequirePackage{fontspec}
+\RequirePackage[dvipsnames]{xcolor}
+\RequirePackage{tabularray}
+\RequirePackage{tcolorbox}
+\RequirePackage{multicol}
+\RequirePackage{graphicx}
+\RequirePackage[margin=10mm,left=5mm,right=5mm]{geometry}
+\RequirePackage[skip=4pt plus 4pt minus 2pt, indent=0mm]{parskip}
+
+%% \setmainfont{TeXGyre Bonum}
+%% \setmainfont{TeXGyre Pagella}
+\setmainfont{TeXGyre Schola}[Scale=0.9]
+
+\newtcolorbox{dbox}[0]{colframe=BurntOrange,colback=white,colupper=black,fonttitle=\bfseries,
+  nobeforeafter,center title,
+  left=2mm,right=2mm,top=2mm,bottom=2mm,boxsep=0mm,toptitle=0.5mm,bottomtitle=0.5mm}
+
+\newtcolorbox{mybox}[1]{colframe=BurntOrange,colback=white,colupper=black,fonttitle=\bfseries,
+nobeforeafter,center title,left=0mm,right=0mm,top=0mm,bottom=0mm,boxsep=0mm,toptitle=0.5mm,bottomtitle=0.5mm,title={#1}}
+
+\newtcolorbox{pagebox}[1]{colframe=red,colback=white,colupper=black,fonttitle=\bfseries,nobeforeafter,center title,
+left=2mm,right=2mm,top=2mm,bottom=2mm,boxsep=0mm,toptitle=0.5mm,bottomtitle=0.5mm,text fill,title={#1}}
+
+\NewTblrEnviron{swtblr}
+\SetTblrInner[swtblr]{colspec={X},rowsep=0.3mm,stretch=1.0,width=\linewidth}
+
+\UseTblrLibrary{varwidth}
