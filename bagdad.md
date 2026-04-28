@@ -672,6 +672,159 @@ at the Eagle hotel.
 > something about Franz Mesmer.  Sounded like quackery to me but I'll
 > take it over the alternatives.
 
+## Game 12 - 2026-04-27
+
+* Woken to the sound of a mariachi band, practising for the weekend
+
+* The doctor tries to break the boy's trance
+
+> Give the Doctor due credit, he managed to break through something in
+> the boy's mind.  It all feels pretty damn hinky to me and I hope it
+> can be cured, even it is just by isolated the kid for a few weeks or
+> something.
+
+* Ride up into the foothills hunting quail
+
+* Get a wild turkey instead of a pair of nesting quail
+
+* Catch the boy searching Blood's table when he is out
+
+* Catch the boy listening in on our conversation
+
+> Not that there was much doubt before but it is clear beyond any
+> reasonable doubt the boy is under a malign influence.  Clara didn't
+> really catch much of out of the oridinary during the day so it going
+> to be a long night.
+
+* The hotel is quite modern
+
+* Plenty of americans about, some hard men
+
+* Enter the saloon
+
+* See Isabella with a young man with well cut curls and a mile
+
+* See mexican with a white suit, digified
+
+* See Captain Clayton
+
+* See Mr Quinterro
+
+* See anglo gentleman with mexican cut smart white suit
+
+* Greeted by Captain Clayton
+
+* Old Crow brandy
+
+* Miss Alcott sitting to one side on an ottoman
+
+* Mr José Agustin Quintero at the table, General Raúl Montoya, broad
+  shouldered but going to fat around the waist, wearing an army
+  uniform, 2nd in command of Neuvo Leon, Patrick Milmo O'Dowd, an
+  older man, tuddy complexion, thick Irish accent and self made
+  businessman, married to the governor's daughter.  O'Dowd is
+  animated about the money being made because of the war.
+
+* Mr Quinterro states that he is a Cuban
+
+> Miss Alcott plays the part of a demure dame well and I suspect this
+> isn't her first rodeo.  General Montoya comes across as a bit of an
+> oaf but no doubt if anything happened to the govenor he'd jump at
+> the chance to evelate himself to the top job.  O'Dell is an odd one,
+> some country bumpkin turned good is his story but he is far to thick
+> with this crowd to be taken at his word.  As for Mr Quinterro, no
+> doubt he is the internation man of business, but that just means
+> he'll knife you in the back and then strip your corpse to the bones.
+
+* Blood getting a bit too drunk
+
+* Isabella singing at the piano
+
+> The dinner is pleasent with everybody on their best behaviour,
+> although Blood is enjoying himself a little too much.  So much for
+> the diplomatic skills of holding ones own with the wine, women and
+> song.  I've long suspected his family has connections but people
+> regard him as a bit of a loser, so this posting is either a savage
+> joke, or just something to palm off the family and get him out of
+> polite society.  I might be bitter but at least I don't whine about
+> it.
+
+* Miss Alcott muttering to herself
+
+* Doctor sees the eye of the boy
+
+* Doctor drives away Miss Alcott taking about science
+
+> We head to the card tables, leaving the doctor to question Miss
+> Alcott.  She must know the game is up and even if we don't know all
+> the details a showdown is in the offering.  I wouldn't put it past
+> Clara to wack the woman at range.  I hope it doesn't come to that
+> but she strikes me as a menace to society.
+
+* The general gets the hots for Clara, who is flirting at the card table
+
+* Win with Clara's help
+
+> The game goes well, with Clara performing admirable to distact the
+> other players.  The Captain is good, better than myself but then
+> they have always just been something to do between the races.  But
+> it clear Blood is sloshed and when the Captain pushes for another
+> round with hard cash I have to push back.  Just because we are at
+> quite a disadvantage doesn't mean we'll just bend over and take it.
+> A southern gentleman's is good before God.
+
+* Sing off between the anglo and the Doctor
+
+> The Captain elevated himself to third on my list.  The whole singing
+> thing was a utter dick move and the doctor responded admirably.
+> Pisses me off completely, rubbing it in our faces.  He must know
+> whatever good will the evening might have created is gone, so I
+> repeat, the Major, then Miss Alcott, then the Captain.
+
+* Isabella speaks to the doctor as the hotel door, invites the doctor to catch up before the opera
+
+> It is clear Donna Isabella is here under some duress and I don't see
+> the fop tenor being much help.  Will she be up for the hard ride out
+> of town into the hills I forsee coming?  With the doctor, maybe.
+> But it is an in behind the scenes and given we are out of money and
+> lawyers guns will be called upon.
+
+> After extricating ourselves and the soaked, both literally and
+> proverabilly, Blood, from the hotel it was a quite and uneventful
+> return to the consulate.  I thought they might try something but I
+> guess they want a bit more fun as our expense.  And firefight in a
+> dark piazza with plenty of cover isn't something those texan bully
+> boys would be up for.
+
+* Pedro let us back in and Blood storms off 
+
+* See the boy heading out, it is a quarter moon
+
+> It is a good thing we have something to do, as sleep is well beyond
+> the horizon right now.  I clear my head in the fountain and the cold
+> of the water has turned my anger into a cold rage.  Blood is
+> expendible at this point, but without solid plans those rangers will
+> > hunt us down, whatever we do.  I need to control the anger to
+> focus on the plan to get away clean whatever happens, then work
+> backward to resolve our predicement.
+
+* Manage not to lose our prey in the thin moonlight
+
+* Follow the boy through the back streets to an old colonial building, narrow with two stories
+
+* Clara manages to climb up with an assist from the dctor and finds shutterred window with glass
+
+* Stone stairs leading down into a basement
+
+* Heading down the stairs and find a tunnel with a fast flowing
+stream, with pulley and rope, which runs above the water
+
+> I have only a vague notion of where we are as it was hard enough
+> keeping Clara in view without trying to remember landmarks and I
+> doubt I could find this again in the day time.  And I doubt I'd ever
+> want to come back to this place.  I would not surprise me the the
+> Devil himself is down here tonight.
+
 ~~~{=Latex}
 \end{multicols}
 ~~~
