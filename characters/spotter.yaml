@@ -1,0 +1,82 @@
+name: Mittelmark Spotter
+
+description: |
+  Skilled scout from forests of Mittelmark, now mostly ash fields.
+  
+image: spotter.png
+
+swade:
+  advancement:
+    - name: Initial
+      hinderances:
+        - name: Obligation
+          type: Major
+          advancement:
+            attributes:
+              agility: 10
+      attributes:
+        agility: 8
+        smarts: 6
+        spirit: 4
+        strength: 6
+        vigor: 6
+
+      skills:
+        Athletics:
+          attribute: agility
+          die: 8
+          core: true
+        Common Knowledge:
+          attribute: smarts
+          die: 6
+          core: true
+        Notice:
+          attribute: smarts
+          die: 10
+          core: true
+        Persuasion:
+          attribute: spirit
+          die: 4
+          core: true
+        Stealth:
+          attribute: agility
+          die: 8
+          core: true
+        Shooting:
+          attribute: agility
+          die: 6
+      edges:
+        - Alertness
+
+    - name: Novice 1
+      skills:
+        Fighting:
+          attribute: agility
+          die: 4
+        Survival:
+          attribute: smarts
+          die: 4
+    - name: Novice 2
+      skills:
+        Shooting:
+          attribute: agility
+          die: 8
+        Survival:
+          attribute: smarts
+          die: 6
+  gear:
+    - name: Light Leather Jacket (+1)
+      weight: 5
+      location: body
+    - name: Light Leather Leggings (+1)
+      weight: 5
+      location: body
+    - name: Thick Leather Cap (+2)
+      weight: 1
+      location: body
+    - name: Sword, Long
+      weight: 3
+      location: body
+    - name: Bow
+      weight: 3
+      location: body

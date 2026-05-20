@@ -1,0 +1,111 @@
+name: Chevalier Philippe
+
+description: |
+  One of the prince's personal guard.  A hard man, but only when necessary.
+  
+image: philippe.png
+
+swade:
+  advancement:
+    - name: Initial
+      hinderances:
+        - name: Ruthless
+          type: Major
+          advancement:
+            attributes:
+              vigor: 10
+        - name: Vow
+          type: Major
+          advancement:
+            attributes:
+              strength: 10
+      attributes:
+        agility: 6
+        smarts: 4
+        spirit: 4
+        strength: 8
+        vigor: 8
+
+      skills:
+        Athletics:
+          attribute: agility
+          die: 8
+          core: true
+        Common Knowledge:
+          attribute: smarts
+          die: 8
+          core: true
+        Notice:
+          attribute: smarts
+          die: 10
+          core: true
+        Persuasion:
+          attribute: spirit
+          die: 4
+          core: true
+        Stealth:
+          attribute: agility
+          die: 4
+          core: true
+      edges:
+        - Brute
+
+    - name: Novice 1
+      skills:
+        Fighting:
+          attribute: agility
+          die: 6
+        Survival:
+          attribute: smarts
+          die: 4
+    - name: Novice 2
+      skills:
+        Shooting:
+          attribute: agility
+          die: 4
+        Intimidation:
+          attribute: spirit
+          die: 4
+    - name: Novice 3
+      skills:
+        Fighting:
+          attribute: agility
+          die: 8
+    - name: Seasoned 1
+      skills:
+        Riding:
+          attribute: agility
+          die: 6
+        Survival:
+          attribute: smarts
+          die: 4
+    - name: Seasoned 2
+      feats:
+        - name: Block
+    - name: Seasoned 3
+      feats:
+        - name: No mercy
+
+  gear:
+    - name: Chain Shirt (+3)
+      weight: 25
+      armour: 3
+      location: body
+    - name: Chain Leggings (+3)
+      armour: 3
+      weight: 10
+      location: body
+    - name: Heavy Helm (+4)
+      weight: 4
+      armour: 4
+      location: body
+    - name: Large Shield
+      weight: 12
+      parry: 3
+      cover: -4
+      location: body
+    - name: Spear
+      weight: 3
+    - name: Sword, Long
+      weight: 3
+      location: body
